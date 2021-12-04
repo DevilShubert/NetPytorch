@@ -1,0 +1,15 @@
+com/Jlian/javanetpytorch/service/ImageDetectService.class
+com/Jlian/javanetpytorch/utils/FileUtils.class
+com/Jlian/javanetpytorch/service/impl/ImageConsultServiceImpl.class
+com/Jlian/javanetpytorch/JavaNetPytorchApplication.class
+com/Jlian/javanetpytorch/utils/RedisUtils.class
+com/Jlian/javanetpytorch/controller/HomeController.class
+com/Jlian/javanetpytorch/config/RedisConfig.class
+com/Jlian/javanetpytorch/client/impl/ImageDetecClientImpl.class
+com/Jlian/javanetpytorch/detector/ImageDetector.class
+com/Jlian/javanetpytorch/config/DefaultView.class
+com/Jlian/javanetpytorch/service/ImageConsultService.class
+com/Jlian/javanetpytorch/detector/impl/ImageDetectorImpl.class
+com/Jlian/javanetpytorch/service/impl/ImageDetectServiceImpl.class
+com/Jlian/javanetpytorch/constant/ViewModelConstants.class
+com/Jlian/javanetpytorch/client/ImageDetecClient.class

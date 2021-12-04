@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>netPytorch show image</title>
+</head>
+<body>
+    <img th:if="${not #strings.isEmpty(img)}" th:src="@{'data:img/png;base64,'+${img}}" />
+    <p th:if="${not #strings.isEmpty(notice)}" th:text="${notice}"></p>
+</body>
+</html>

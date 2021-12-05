@@ -15,7 +15,7 @@ def upload():
 
     try:
         # 对于普通图片的检测
-        image = Image.open(BytesIO(base64.b64decode(file)))
+        image = Image.open(BytesIO(base64.b64decode(file))).convert('RGB')
     except(Exception) :
         # ios设备上传图片格式是HEIC，需要特殊处理，先转成png格式
         with open('./images_buffer/convert.HEIC', 'wb') as f:
@@ -25,7 +25,7 @@ def upload():
         i = pyheif.read_heif(data)
         pi = Image.frombytes(mode=i.mode, size=i.size, data=i.data)
         pi.save('./images_buffer/convert.jpg', format="jpeg")
-        image = Image.open('./images_buffer/convert.jpg')
+        image = Image.open('./images_buffer/convert.jpg').convert('RGB')
 
     # step 2. detect image
     dec_time = Service.detect(image)

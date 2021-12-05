@@ -114,15 +114,15 @@ conda install pytorch torchvision  -c pytorch
 
 - 打开浏览器输入`localhost:8080`进入页面
 
-![image-20211205203436876.png](https://github.com/DevilShubert/NetPytorch/blob/master/IamgesFile/image-20211205203436876.png)
+![image-20211205203436876.png](http://github.com/DevilShubert/NetPytorch/blob/master/IamgesFile/image-20211205203436876.p)
 
 - 选中需要访问的图片
 
-![image-20211205204516200.png](https://github.com/DevilShubert/NetPytorch/blob/master/IamgesFile/image-20211205204516200.png)
+![image-20211205204516200.png](/Users/liuzheran/typora图片/image-20211205204516200-8709918.png)
 
 - 得到检测结果
 
-![image-20211205204705282.png](https://github.com/DevilShubert/NetPytorch/blob/master/IamgesFile/image-20211205204705282.png)
+![image-20211205204705282.png](/Users/liuzheran/typora图片/image-20211205204705282-8709929.png)
 
 
 
